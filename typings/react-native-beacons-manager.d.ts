@@ -15,6 +15,8 @@ declare module 'react-native-beacons-manager' {
     | 'restricted';
 
   class Beacons {
+    BeaconsEventEmitter: any;
+
     ///////////////////////////////////////////////////////
     // iOS only
     ///////////////////////////////////////////////////////
